@@ -60,9 +60,9 @@ def protected():
     """A protected route that requires authentication."""
     return jsonify({"message": "This is a protected route!"})
 
-###
+####
 # Stop Auth logic
-###
+####
 
 
 if __name__ == '__main__':
