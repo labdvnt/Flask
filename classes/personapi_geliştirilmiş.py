@@ -25,7 +25,7 @@ VALID_USERNAME = "admin"
 VALID_PASSWORD = "secret"
 
 def check_auth(username, password):
-    """Kullanıcı adı ve parolanın geçerli olup olmadığını kontrol eder."""
+    """Kullanıcı adı ve parolanın geçerli olup olmadığını kontrol eder..."""
     return username == VALID_USERNAME and password == VALID_PASSWORD
 
 def authenticate():
