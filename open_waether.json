@@ -1,0 +1,56 @@
+[
+    {
+        "id": 745042,
+        "name": "İstanbul",
+        "country": "TR",
+        "coord": {
+            "lat": 41.0351,
+            "lon": 28.9833
+        }
+    },
+    {
+        "id": 323786,
+        "name": "Ankara",
+        "country": "TR",
+        "coord": {
+            "lat": 39.9199,
+            "lon": 32.8543
+        }
+    },
+    {
+        "id": 311044,
+        "name": "İzmir",
+        "country": "TR",
+        "coord": {
+            "lat": 38.4622,
+            "lon": 27.0923
+        }
+    },
+    {
+        "id": 750268,
+        "name": "Bursa",
+        "country": "TR",
+        "coord": {
+            "lat": 40.1667,
+            "lon": 29.0833
+        }
+    },
+    {
+        "id": 323776,
+        "name": "Antalya",
+        "country": "TR",
+        "coord": {
+            "lat": 36.7741,
+            "lon": 30.7178
+        }
+    },
+    {
+        "id": 325361,
+        "name": "Adana",
+        "country": "TR",
+        "coord": {
+            "lat": 36.985,
+            "lon": 35.2881
+        }
+    }
+]

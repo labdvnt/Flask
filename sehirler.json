@@ -1,0 +1,62 @@
+[
+    {
+        "sehir": "İstanbul",
+        "sicaklik": 29.53,
+        "hava": "açık",
+        "nem": 37,
+        "ulke": "TR",
+        "id": 745042,
+        "enlem": 41.0351,
+        "boylam": 28.9833
+    },
+    {
+        "sehir": "Ankara",
+        "sicaklik": 30.48,
+        "hava": "açık",
+        "nem": 14,
+        "ulke": "TR",
+        "id": 323786,
+        "enlem": 39.9199,
+        "boylam": 32.8543
+    },
+    {
+        "sehir": "İzmir",
+        "sicaklik": 33.9,
+        "hava": "açık",
+        "nem": 31,
+        "ulke": "TR",
+        "id": 311044,
+        "enlem": 38.4622,
+        "boylam": 27.0923
+    },
+    {
+        "sehir": "Bursa",
+        "sicaklik": 30.34,
+        "hava": "açık",
+        "nem": 28,
+        "ulke": "TR",
+        "id": 750268,
+        "enlem": 40.1667,
+        "boylam": 29.0833
+    },
+    {
+        "sehir": "Antalya",
+        "sicaklik": 34.33,
+        "hava": "açık",
+        "nem": 36,
+        "ulke": "TR",
+        "id": 323776,
+        "enlem": 36.7741,
+        "boylam": 30.7178
+    },
+    {
+        "sehir": "Adana",
+        "sicaklik": 32.93,
+        "hava": "açık",
+        "nem": 32,
+        "ulke": "TR",
+        "id": 325361,
+        "enlem": 36.985,
+        "boylam": 35.2881
+    }
+]
