@@ -8,7 +8,7 @@ while True:
         sehir_enlem = float(input("Şehir enlem bilgisini giriniz: "))
         sehir_boylam = float(input("Şehir boylam bilgisini giriniz: "))
     except ValueError:
-        print("❌ Lütfen geçerli sayısal bir değer girin!")
+        print("Lütfen geçerli sayısal bir değer girin!")
         continue
 
     with open("open_weather.json", "r", encoding="utf-8") as f:
@@ -27,18 +27,18 @@ while True:
             response = requests.get(url)
             if response.status_code == 200:
                 data = response.json()
-                print(f"\n✅ {data['name']} için hava durumu:")
-                print(f"🌡️ Sıcaklık: {data['main']['temp']}°C")
-                print(f"🌥️ Hava: {data['weather'][0]['description']}")
-                print(f"💧 Nem: {data['main']['humidity']}%")
-                print(f"🌬️ Rüzgar: {data['wind']['speed']} m/s\n")
+                print(f"\n {data['name']} için hava durumu:")
+                print(f"Sıcaklık: {data['main']['temp']}°C")
+                print(f"Hava: {data['weather'][0]['description']}")
+                print(f"Nem: {data['main']['humidity']}%")
+                print(f"Rüzgar: {data['wind']['speed']} m/s\n")
                 break
             else:
                 print(f"API Hatası: {response.status_code}")
         except Exception as e:
             print(f"Hava durumu alınamadı. Hata: {e}")
     else:
-        print("❌ Şehir bulunamadı.")
+        print("Şehir bulunamadı.")
 
     while True:
         secim = input("Devam etmek için E, çıkmak için ESC tuşuna basın: ").strip().upper()
