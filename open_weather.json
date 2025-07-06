@@ -1,7 +1,7 @@
 [
     {
         "id": 745042,
-        "name": "İstanbul",
+        "name": "Istanbul",
         "country": "TR",
         "coord": {
             "lat": 41.0351,
@@ -19,7 +19,7 @@
     },
     {
         "id": 311044,
-        "name": "İzmir",
+        "name": "Izmir",
         "country": "TR",
         "coord": {
             "lat": 38.4622,
