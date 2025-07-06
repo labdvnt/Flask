@@ -31,11 +31,11 @@ while True:
                     "enlem": data['coord']['lat'],
                     "boylam": data['coord']['lon']
                 }
-                print(f"\n✅ {data['name']} için hava durumu:")
-                print(f"🌡️ Sıcaklık: {data['main']['temp']}°C")
-                print(f"🌥️ Hava: {data['weather'][0]['description']}")
-                print(f"💧 Nem: {data['main']['humidity']}%")
-                print(f"🌬️ Rüzgar: {data['wind']['speed']} m/s\n")
+                print(f"\n {data['name']} için hava durumu:")
+                print(f" Sıcaklık: {data['main']['temp']}°C")
+                print(f" Hava: {data['weather'][0]['description']}")
+                print(f" Nem: {data['main']['humidity']}%")
+                print(f" Rüzgar: {data['wind']['speed']} m/s\n")
                 break  # şehir bulundu ve veri başarılı, döngü sonlandır
             else:
                 print(f"API Hatası: {response.status_code}")
